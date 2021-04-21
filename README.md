@@ -1,8 +1,10 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+This repository contains an AI image recognition plugin based on [TensorFlow](https://www.tensorflow.org). For detailed instructions and an introduction to TensorFlow, please refer to the blog article [Artificial Intelligence and Automation with TensorFlow and Joget Workflow](https://blog.joget.org/2017/05/artificial-intelligence-and-automation.html).
 
 # Getting Help
+
+Documentation is available at https://dev.joget.org/community/display/DX7/AI+Label+Image+Plugin.
 
 JogetOSS is a community-led team for open source software related to the [Joget](https://www.joget.org) no-code/low-code application platform.
 Projects under JogetOSS are community-driven and community-supported.

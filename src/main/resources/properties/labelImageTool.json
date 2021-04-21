@@ -1,0 +1,55 @@
+[{
+    title : 'Label Image Tool',
+    properties : [{
+        label : 'Source File Upload Image',
+        type : 'header'
+    },
+    {
+        name : 'formDefId',
+        label : 'Form',
+        type : 'selectbox',
+        options_ajax : '[CONTEXT_PATH]/web/json/console/app/%s/%s/forms/options'
+    },
+    {
+        name:'fileUploadId',
+        label:'File Upload Field',
+        type : 'autocomplete',
+        options_ajax_on_change : 'formDefId',
+        options_ajax : '[CONTEXT_PATH]/web/json/console/app[APP_PATH]/form/columns/options'
+    },
+    {
+        label : 'Store Label Image Result in Form',
+        type : 'header'
+    },    
+    {
+        name : 'formLabelMapping',
+        label:'Store Label into Form Field',
+        type : 'autocomplete',
+        options_ajax_on_change : 'formDefId',
+        options_ajax : '[CONTEXT_PATH]/web/json/console/app[APP_PATH]/form/columns/options'
+    },
+    {
+        name : 'formProbabilityMapping',
+        label:'Store Probability into Form Field',
+        type : 'autocomplete',
+        options_ajax_on_change : 'formDefId',
+        options_ajax : '[CONTEXT_PATH]/web/json/console/app[APP_PATH]/form/columns/options'
+    },
+    {
+        label : 'Store Label Image Result in Workflow Variable',
+        type : 'header'
+    },    
+    {
+        name : 'wfVariableLabelMapping',
+        label:'Store Result into Workflow Variable',
+        type : 'autocomplete',
+        options_ajax : '[CONTEXT_PATH]/web/json/console/app[APP_PATH]/workflowVariable/options'
+    },
+    {
+        name : 'wfVariableProbabilityMapping',
+        label:'Store Probability into Workflow Variable',
+        type : 'autocomplete',
+        options_ajax : '[CONTEXT_PATH]/web/json/console/app[APP_PATH]/workflowVariable/options'
+    }]
+}]
+    
